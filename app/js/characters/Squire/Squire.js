@@ -18,7 +18,7 @@ class Squire extends Character {
     return `${super.communicate()}I'm a loser`;
   }
 
-  #kissAssLevelFilter(kissAssLevel) {
+  kissAssLevelFilter(kissAssLevel) {
     if (kissAssLevel < 0) {
       return 0;
     }
