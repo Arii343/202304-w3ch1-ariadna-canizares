@@ -1,4 +1,7 @@
-export class Squire extends Character {
+import Character from "../Character/Character.js";
+import Fighter from "../Fighter/Fighter.js";
+
+class Squire extends Character {
   kissAssLeve;
   serves;
 
@@ -27,3 +30,5 @@ export class Squire extends Character {
     return kissAssLevel;
   }
 }
+
+export default Squire;

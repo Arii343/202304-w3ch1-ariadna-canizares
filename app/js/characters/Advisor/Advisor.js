@@ -1,4 +1,5 @@
-export class Advisor extends Character {
+import Character from "../Character/Character.js";
+class Advisor extends Character {
   advises;
 
   constructor(characterData, advises) {
@@ -13,3 +14,5 @@ export class Advisor extends Character {
     return `${super.communicate()}I have a funny feeling that I'm going to die`;
   }
 }
+
+export default Advisor;

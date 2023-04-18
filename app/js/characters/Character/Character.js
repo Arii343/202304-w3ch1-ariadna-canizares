@@ -1,4 +1,4 @@
-export class Character {
+class Character {
   isAlive = true;
   series = "Game of Thrones";
   characterData;
@@ -15,3 +15,5 @@ export class Character {
     this.isAlive = false;
   }
 }
+
+export default Character;

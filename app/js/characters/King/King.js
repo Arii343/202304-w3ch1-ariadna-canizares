@@ -1,4 +1,5 @@
-export class King extends Character {
+import Character from "../Character/Character.js";
+class King extends Character {
   yearsOfReign;
 
   constructor(characterData, yearsOfReign) {
@@ -10,3 +11,5 @@ export class King extends Character {
     return `${super.communicate()}Everybody will die`;
   }
 }
+
+export default King;
