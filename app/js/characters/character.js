@@ -1,36 +1,41 @@
+import King from "./King/King.js";
+import Fighter from "./Fighter/Fighter.js";
+import Advisor from "./Advisor/Advisor.js";
+import Squire from "./Squire/Squire.js";
+
 const joffreyCharacterData = {
   name: "Joffrey",
   family: "Baratheon",
   age: 16,
-  imageSource: "joffrey.jpg",
+  imageSource: "./img/joffrey.jpg",
 };
 
 const jaimeCharacterData = {
   name: "Jaime",
   family: "Lannister",
   age: 45,
-  imageSource: "jaime.jpg",
+  imageSource: "./img/jaime.jpg",
 };
 
 const daenerysCharacterData = {
   name: "Daenerys",
   family: "Targaryen",
   age: 30,
-  imageSource: "daenerys.jpg",
+  imageSource: "./img/daenerys.jpg",
 };
 
 const tyrionCharacterData = {
   name: "Tyrion",
   family: "Lannister",
   age: 40,
-  imageSource: "tyrion.jpg",
+  imageSource: "./img/tyrion.jpg",
 };
 
 const bronnCharacterData = {
   name: "Bronn",
   family: "Blackwater",
   age: 54,
-  imageSource: "bronn.jpg",
+  imageSource: "./img/bronn.jpg",
 };
 
 const joffrey = new King(joffreyCharacterData, 2);
